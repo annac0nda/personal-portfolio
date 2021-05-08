@@ -1,0 +1,70 @@
+body {
+  /*background-image: url("images/header.png");*/
+  background-image: linear-gradient(white, white, white);
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin: 0;
+  background-color: white;
+}
+
+div {
+  /* a "div" is like a box you can put web elements in. I place paragraphs
+and images in "divs" and then move them around the page. */
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+img {
+  width: 100%;
+  /* all images will be 100% of the div boxes they are in.*/
+}
+
+p {
+  background: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', sans-serif;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+#bio {
+  background: white;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+#bkgnd {
+  position: fixed;
+  /* "fixed" makes sure that the background stays in one place even if you scroll.*/
+  z-index: -1;
+  /* the "-1" makes sure the background images shows up behind the webpage content.*/
+  width: 100%;
+  /* "100%" makes the image the full width of the webpage.*/
+}
+
+.img_right {
+  width: 50%;
+  float: right; /* this is like when you change the alignment in word processing software.
+  if you "float" to the right, then the div aligns the element to the right of the page instead of the left.*/
+}
+
+.img_left {
+  width: 50%;
+  float: left;
+}
+
+.text_right {
+  width: 40%;
+  float: right;
+}
+
+.text_left {
+  width: 40%;
+  float: left;
+}
